@@ -1,0 +1,93 @@
+body{background: url(image/fond_Ac.jpg) center/cover;
+    min-height: 80vh;
+    display:flow-root;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 110px;
+}
+
+
+.zone_con{width: 700px;
+    height: 500px;
+    background-color: #fff5;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 .4rem .4rem #0005;
+    border-radius: 4%;
+    overflow: hidden;
+    text-decoration: center;
+}
+.titre{text-align: center;
+    font-size: 30px ;
+    padding-top: 10px;
+    color: rgb(128, 120, 8);
+}
+
+.enter{ display:contents;
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+hr{color: black;
+    display: flex;
+}
+input{padding-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+    width: 400px ;
+    height: 30px;
+    outline: 0;
+    border-radius: 6%;
+    background-color: #fff6;
+    padding-left: 7px;
+    border-top: 0px;
+    border-bottom: 9px rgb(31, 36, 41);
+}
+label{float: left;
+    display: flex;
+    font-size: 18px;
+
+}
+div{padding: 2%;
+    margin: 7px;
+    min-height: 40px;
+    border-radius:10%;
+    display: flex;
+   
+}
+.check{width: 100px;
+    float: left;
+    display: flex;
+    padding: 0px;
+    margin:0px;
+}
+input:hover{transform: scale(1.1);
+    box-shadow: 3px 3px 3px 3px rgb(128, 120, 8);
+    cursor:pointer;
+    transition: 0.4s;
+}
+
+.combo:hover{transform: scale(1.2);
+    box-shadow: 3px 3px 3px 3px rgb(128, 120, 8);
+    cursor:pointer;
+}
+
+a{width: 150px;
+    height: 40px;
+    background-color: rgb(128, 120, 8);
+    margin-top: 50px;
+    font-size: 30px;
+    border:rgba(128, 120, 8) solid;
+    margin-left: 100px;
+    text-decoration: none;
+
+}
+.combo{font-size: medium;
+    margin: auto;
+    padding: 4px;
+    width: 100px;
+}
+.vcombo{padding: 7px;
+}
